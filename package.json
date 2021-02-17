@@ -1,14 +1,27 @@
 {
-  "name": "note-taker",
+  "name": "Note_Taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Description",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selma-e/Note_Taker.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/selma-e/Note_Taker/issues"
+  },
+  "homepage": "https://github.com/selma-e/Note_Taker#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "path": "^0.12.7",
+    "uuid": "^8.3.2"
   }
 }

@@ -10,11 +10,11 @@ Create an application that can be used to write, save, and delete notes. This ap
 
   * GET `/notes` - Should return the `notes.html` file.
 
-  * GET `*` - Should return the `index.html` file
+  * GET `*` - Should return the `index.html` file (all requests)
 
 * The application should have a `db.json` file on the backend that will be used to store and retrieve notes using the `fs` module.
 
-* The following API routes should be created:
+* The following API routes (put these first) should be created:
 
   * GET `/api/notes` - Should read the `db.json` file and return all saved notes as JSON.
 
